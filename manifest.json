@@ -1,0 +1,15 @@
+{
+    "name":"srinath's extension",
+    "version":"2.0",
+    "description":"This extension shows random images based on your given word",
+    "manifest_version":2,
+    "browser_action":{
+        "default_popup":"sri.html",
+        "default_icon":"ironme.png"
+    },
+    "icons":{
+        "128":"ironme.png"
+    },
+    "permissions":["activeTab","storage"]
+    
+}
